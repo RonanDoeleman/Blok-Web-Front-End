@@ -1,16 +1,14 @@
 # Procesverslag
+
 **Auteur:** -Ronan Doeleman-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-
-
 ## Bronnenlijst
+
 1. -bron 1-
 2. -bron 2-
 3. -...-
-
-
 
 ## Eindgesprek (week 7/8)
 
@@ -20,19 +18,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van je eindresultaat-
 
-
-
 ## Voortgang 3 (week 6)
 
 -same as voortgang 1-
 
-
-
 ## Voortgang 2 (week 5)
 
 -same as voortgang 1-
-
-
 
 ## Voortgang 1 (week 3)
 
@@ -52,20 +44,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
-
-
 ## Intake (week 1)
 
 **Je startniveau:** -Blauw-
 
 **Je focus:** -Surface-
 
-**Je opdracht:** -Kledingwebsite: Didato van het vak Content-
+**Je opdracht:** -Kledingwebsite van Beachim-
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/IMG_6147.png)
+(images/IMG_6150.png)
+(images/IMG_6148.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/IMG_6124.png)
