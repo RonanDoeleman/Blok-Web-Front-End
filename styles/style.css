@@ -19,6 +19,27 @@ h1 {
 
 }
 
+header form {
+  padding:.75em;
+  background-color: white;
+  flex-grow:5;
+  display:flex;
+  justify-content:flex-start;
+
+}
+
+header form input { 
+  flex-grow:1;  
+  display:none;
+}
+
+form img{
+  width: 3em;
+  height: auto;
+  position: relative;
+  
+}
+
 .navigatie {
   display: flex;
   z-index: 99;
@@ -49,20 +70,20 @@ li {
   height: auto;
   width: 100%;
   margin-top: 1em;
-  
 }
 
 .genderheren img{
+  display: flex;
   height: auto;
   width:100%;
-  padding: 4em;
-  margin-top: -2em;
+  padding: 1em;
 }
 
 .genderdames img{
   height: auto;
   width:100%;
-  padding: 4em;
-  margin-top: -7em;
+  padding: 1em;
 }
+
+
 

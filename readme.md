@@ -30,7 +30,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Inenten kan beter.
+Maak onderscheid tussen een content plaatje en een ... plaatje.
+Geen tekst in een image plaatsen.
+H2 in hetzelfde block als de image plaatsen en erboven laten zweven, hierdoor kan je hover effect e.t.c. toevoegen
+Class names in het engels gebruiken. (gebruik passende inhoudelijke namen) 
+Class names minimaliseren, gebruik article.
+
+
 
 **Screenshot(s):**
 
