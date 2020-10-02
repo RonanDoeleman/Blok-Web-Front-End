@@ -120,66 +120,71 @@
 
 	<footer>
 
-		<h3>Klantenservice</h3>
-		<ul>
-			
-			<li><a href="#">Veelgestelde vragen</a></li>
-			<li><a href="#">Betalen</a></li>
-			<li><a href="#">Bezorgen</a></li>
-			<li><a href="#">Ruilen & Retourneren</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-
-		<h3>Mijn Account</h3>
-		<ul>
-			<li><a href="#">Registreren</a></li>
-			<li><a href="#">Mijn bestellingen</a></li>
-			<li><a href="#">Mijn tickets</a></li>
-			<li><a href="#">Mijn verlanglijst</a></li>
-			<li><a href="#">Nieuwsbrieven</a></li>
-		</ul>
-
+		<section>
+			<h3>Klantenservice:</h3>
+			<ul>
+				<li><a href="#">Veelgestelde vragen</a></li>
+				<li><a href="#">Betalen</a></li>
+				<li><a href="#">Bezorgen</a></li>
+				<li><a href="#">Ruilen & Retourneren</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</section>
 		
-		<h3>Beachim Zandvoort</h3>
-		<ul>
-			<li><a href="#">Over ons</a></li>
-			<li><a href="#">Openingstijden</a></li>
-			<li><a href="#">Werken bij Beachim</a></li>
-			<li><a href="#">Stage bij Beachim<a></li><br>
+		<section>
+			<h3>Mijn Account:</h3>
+			<ul>
+				<li><a href="#">Registreren</a></lh>
+				<li><a href="#">Mijn bestellingen</a></li>
+				<li><a href="#">Mijn tickets</a></li>
+				<li><a href="#">Mijn verlanglijst</a></li>
+				<li><a href="#">Nieuwsbrieven</a></li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Beachim Zandvoort:</h3>
+			<ul>
+				<li><a href="#">Over ons</a></li>
+				<li><a href="#">Openingstijden</a></li>
+				<li><a href="#">Werken bij Beachim</a></li>
+				<li><a href="#">Stage bij Beachim<a></li><br>
+	
+				<li>Kerkstraat 15</li>
+				<li>2042JD Zandvoort</li>
+				<li>The Netherlands</li><br>
+	
+				<li>Webshop: +31 23 573 8949</li>
+				<li>Winkel: +31 23 573 9489</li>
+				<li>WhatsApp: +31 6 471 085 81</li>
+			</ul>
+		</section>
+		
+		<section class="newsletter">
+			<h3>Socials:</h3>
+			<ul class="socials">
+				<li><a href="#"><img src="./images/facebook.svg" alt="facebook"></a></li>
+				<li><a href="#"><img src="./images/instagram.svg" alt="instagram"></a></li>
+				<li><a href="#"><img src="./images/whatsapp.svg" alt="whatsapp"></a></li>
+				<li><a href="#"><img src="./images/snapchat 2.svg" alt="snapchat"></a></li>
+			</ul>
+		
+			<h3>Nieuwsbrief:</h3>
+				<p>Meld je aan voor onze nieuwsbrief en blijf op de hoogte!</p>
 
-			<li>Kerkstraat 15</li>
-			<li>2042JD Zandvoort</li>
-			<li>The Netherlands</li><br>
+			<div id=succesmessage></div>
 
-			<li>Webshop: +31 23 573 8949</li>
-			<li>Winkel: +31 23 573 9489</li>
-			<li>WhatsApp: +31 6 471 085 81</li>
-		</ul>
+			<form id=form action='#'>
 
-		<h3>Socials</h3>
-		<ul class="socials">
-			<li><a href="#"><img src="./images/facebook.svg" alt="facebook"></a></li>
-			<li><a href="#"><img src="./images/instagram.svg" alt="instagram"></a></li>
-			<li><a href="#"><img src="./images/whatsapp.svg" alt="whatsapp"></a></li>
-			<li><a href="#"><img src="./images/snapchat 2.svg" alt="snapchat"></a></li>
+				<label id=invoeren>
+					E-Mail:
+					<input type="email" name="email">
+				</label>
 
-		</ul>
-
-		<h3>Nieuwsbrief</h3>
-			<p>Meld je aan voor onze nieuwsbrief en blijf op de hoogte</p>
-
-		<div id=succesmessage></div>
-
-		<form id=form action='#'>
-
-			<label id=invoeren>
-				E-Mail:
-				<input type="email" name="email">
-			</label>
-
-			<button id="subscribe" type='submit'>Abonneer</button>
-		</form>
-
+				<button id="subscribe" type='submit'>Abonneer</button>
+			</form>
+		</section>
+		
 	</footer>
 
 	<script src="scripts/script.js"></script>

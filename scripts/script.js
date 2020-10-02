@@ -7,9 +7,9 @@ var succesElement = document.getElementById("succesmessage")
 
 form.addEventListener('submit', function (event) {
   if (input.value) {
-    succesElement.innerText = input.value + ' heeft zich succesvol ingeschreven!'
+    succesElement.innerText = input.value + "U heeft zich Succesvol ingeschreven!"
   } else {
-    succesElement.innerText = 'Oeps er ging iets fout met het invoeren van uw e-mail'
+    succesElement.innerText = "Oeps er ging iets fout met het invoeren van uw e-mail"
   }
   
   event.preventDefault()

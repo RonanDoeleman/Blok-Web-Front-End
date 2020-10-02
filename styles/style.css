@@ -21,7 +21,6 @@ nav {
   width: 100%;
 }
 
-
 .align {
   display: flex;
   justify-content: space-between;
@@ -76,7 +75,8 @@ nav {
   align-items: center;
   justify-content: flex-end;
   list-style: none;
-  margin: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 .service-items li {
@@ -153,8 +153,9 @@ main #sale:hover {
 
 footer {
   margin-top: 5em;
-  padding: 1em;
-  background-color: violet;
+  padding: 2em;
+  background-color: slategrey;
+  font-size: 1em;
 }
 
 footer h3{
@@ -164,7 +165,6 @@ footer h3{
 footer ul{
   color: black;
   padding: 0;
-  border: 2px solid burlywood;
 }
 
 footer li{
@@ -185,10 +185,6 @@ footer .socials{
   display: flex;
 }
 
-.socials ul{
-  padding: 0;
-  border: 3px solid gold;
-}
 
 footer .socials li{
   margin-left: 1em;
@@ -196,12 +192,12 @@ footer .socials li{
 
 #invoeren {
   font-size: 1em;
-
 }
 
 #succesmessage{
   font-size: 1em;
   color: white;
+  margin: 2em;
 }
 
 #subscribe{
@@ -212,6 +208,9 @@ footer .socials li{
   color: white;
 }
 
+.newsletter{
+  grid-row-start: 3;
+}
 
 @media (min-width:1000px) {
   header nav .categories {
@@ -236,7 +235,12 @@ footer .socials li{
 
   footer{
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:2em;
+  }
+
+  .service-items{
+    padding: 2em;
   }
 }
 
