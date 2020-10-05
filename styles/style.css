@@ -87,16 +87,10 @@ nav {
   display: none;
 }
 
-
-
-
 /* BEGIN HAMBURGER MENU */
 .menu-button{
     margin-right: 1em;
 }
-
-/* HAMBURGER MENU KNOP VERDWIJNT NA MIN 1000PX BREEDTE */
-
 
 .hamburger-menu{
     display: none;
