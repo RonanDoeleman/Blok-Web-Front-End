@@ -17,14 +17,16 @@ h1 {
   font-weight: 200;
 }
 
-nav {
+header {
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .align {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: lightgrey;
 }
 
 .hoofdlogo-mobile img {
@@ -106,12 +108,13 @@ nav {
 
 .hamburger-menu li{
     list-style-type: none;
-    padding: 15px 10px;
+    padding: 1em 1em;
     border-bottom: 1px solid #8c8c8c;
 }
 
 .hamburger-menu li a{
     color: #ffff;
+    font-size: .9em;
     font-weight: 100;
     text-transform: uppercase;
     text-decoration: none;
@@ -201,9 +204,9 @@ main .brands a{
   text-decoration: none;
 }
 
-main .brands .mcm-brand{
+main .brands .stoneislandlongsleeve{
   width: 100%;
-  height: 95%;
+  height: 100%;
 }
 
 main .gender-choice p, main .other-categories p{
@@ -281,6 +284,38 @@ footer .socials li {
   color: white;
 }
 
+.producten h1{
+  display: none;
+}
+
+.producten{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.producten article{
+  padding: 3em;
+  margin-top: 2em;
+}
+
+.producten h4, h5, h6{
+  text-align: center;
+  font-size: .9em;
+  text-transform: uppercase;
+  margin:.5em;
+  letter-spacing: .10em;
+  font-weight: 700;
+}
+
+.producten h4{
+  margin-top:1em;
+}
+
+.producten h5{
+  color:grey;
+  font-weight: 300;
+}
+
 @media (min-width:1000px) {
   header nav .categories {
     display: flex;
@@ -312,10 +347,14 @@ footer .socials li {
     padding: 2em;
   }
 
+  main .brands .stoneislandlongsleeve{
+    margin-top: 0;
+  }
+
   main .brands{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    column-gap: 3em;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1em;
   }
 
   main .gender-choice{
@@ -330,6 +369,11 @@ footer .socials li {
     grid-gap: 2em;
   }
 
+  .producten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
 }
 
 @media (min-width:500px) {
@@ -337,4 +381,154 @@ footer .socials li {
     height: 1.5em;
     width: auto;
   }
+
+}
+
+/* DETAILPAGINA */
+
+.detailpaginamain{
+  margin: 1em;
+}
+
+.infolongsleeve{
+  text-align: center;
+}
+
+.detailpaginamain h1{
+  font-weight: 800;
+  margin: 0;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.sizes{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.sizes button{
+  background-color: #f1f2f2;
+  height: 3em;
+  width: 4em;
+  border: none;
+  font-size: .8em;
+}
+
+.winkelwagen{
+  background-color: #f1f2f2;
+  padding: 20px;
+  width: 100%;
+  margin-top: 1em;
+  text-align: center;
+  border: none;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .10em;
+  background-color: #68bba9;
+  color: white;
+}
+
+.favorieten{
+  padding: 20px;
+  border: 1px solid #68bba9;
+  background-color: white;
+  margin-right: .5em;
+  margin-top: 1em;
+}
+
+.detailpagina h5{
+  color: grey;
+  margin-top: .3em;
+  font-size: .8em;
+  text-decoration: underline;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-left: 0;
+  text-align: left;
+}
+
+.detailpagina h2{
+  margin-bottom: 0;
+}
+
+.detailpagina h3{
+  font-weight: 300;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.stoneislandlongsleeve{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detailpaginamain p{
+  margin: 0;
+  color: rgb(179, 179, 179);
+}
+
+.description p{
+  font-size: .9em;
+  color: rgb(179, 179, 179);
+  margin-bottom: .5em;
+
+}
+
+.service-conditions{
+  list-style: none;
+  padding-left: 0;
+  font-size: .8em;
+  color: rgb(179, 179, 179);
+  margin-top: 2em;
+}
+
+.service-conditions li{
+  display: flex;
+  margin-bottom: .5em;
+}
+
+.service-conditions img{
+  height: 1em;
+  width: auto;
+  margin-right: .4em;
+}
+
+.service-conditions li:last-of-type{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 5em;
+  width: 100%;
+}
+
+.related-products h1{
+  font-size: 2em;
+  margin-top: 2em;
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+.stoneislandsweater{
+  width: 11em;
+  height: auto;
+  margin-left: 1em;
+}
+
+.stoneislandsweater h4{
+  text-align: center;
+  font-size: .9em;
+  text-transform: uppercase;
+  margin:.5em;
+  letter-spacing: .10em;
+  font-weight: 700;
+}
+
+.stoneislandsweater h5{
+  color: grey;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }

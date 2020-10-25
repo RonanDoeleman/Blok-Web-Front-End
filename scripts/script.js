@@ -19,7 +19,7 @@ form.addEventListener('submit', function (event) {
 
 
 
-// -- HAMBURGER MENI --
+// -- HAMBURGER MENU --
 //de menu knop
 var menubutton = document.querySelector(".menu-button");
 
@@ -58,3 +58,4 @@ function menuSluiten(){
     //de hamburgermenu krijgt display none
     hamburgermenu.style.display = "none";
 }
+
