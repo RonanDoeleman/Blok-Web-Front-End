@@ -87,7 +87,8 @@ header {
   display: none;
 }
 
-/* BEGIN HAMBURGER MENU */
+/* HAMBURGERMENU */
+
 .menu-button {
   margin-right: 1em;
 }
@@ -102,6 +103,7 @@ header {
   margin: 0 auto;
   width: 60%;
   height: 100%;
+  overflow: scroll;
 }
 
 .hamburger-menu li {
@@ -150,7 +152,7 @@ header {
   height: auto;
 }
 
-/* EINDE HAMBURGER MENU */
+/* MAIN CONTENT */
 
 main #sale {
   background-color: black;
@@ -228,6 +230,47 @@ main .other-categories a {
   text-decoration: none;
 }
 
+
+.producten h1 {
+  display: none;
+}
+
+.producten {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3em;
+}
+
+.producten article {
+  padding: 2em;
+  margin-top: 2em;
+}
+
+.producten article:hover {
+  box-shadow: 7.5px 7.5px 3px lightgray;
+  transition: 0.7s;
+}
+
+.producten h4,
+h5,
+h6 {
+  text-align: center;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin: 0.5em;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.producten h4 {
+  margin-top: 1em;
+}
+
+.producten h5 {
+  color: grey;
+  font-weight: 300;
+}
+
 footer {
   margin-top: 5em;
   padding: 2em;
@@ -289,47 +332,21 @@ footer .socials li {
   color: white;
 }
 
-.producten h1 {
-  display: none;
+@media (min-width: 720px){
+  .producten {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+  }
+
 }
 
-.producten {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 3em;
-}
-
-.producten article {
-  padding: 2em;
-  margin-top: 2em;
-}
-
-.producten article:hover {
-  box-shadow: 7.5px 7.5px 3px lightgray;
-  transition: 0.7s;
-}
-
-.producten h4,
-h5,
-h6 {
-  text-align: center;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  margin: 0.5em;
-  letter-spacing: 0.1em;
-  font-weight: 700;
-}
-
-.producten h4 {
-  margin-top: 1em;
-}
-
-.producten h5 {
-  color: grey;
-  font-weight: 300;
-}
-
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   header nav .categories {
     display: flex;
   }
@@ -412,6 +429,10 @@ h6 {
 }
 
 /* DETAILPAGINA */
+
+.titel-pagina{
+  display: none;
+}
 
 .detailpaginamain {
   margin: 1em;
@@ -658,7 +679,7 @@ button.favorieten:hover{
   }
   
   .stoneislandfoto, .stoneislandlongsleeveinfo{
-    margin-top: 5em;
+    margin-top: 3em;
   }
 
   .detailpaginamain h1{
@@ -681,5 +702,21 @@ button.favorieten:hover{
   .related-products img{
     margin-top: 2em;
   }
+
+  .stoneislandlongsleeveinfo{
+    padding: 2em;
+  }
+
+  .sizes {
+    padding: 0;
+    justify-content: left;
+  }
   
+  .sizes button {
+    margin-right: 2em;
+  }
+  
+  .winkelwagen{
+    max-width: 65%;
+  }
 }
