@@ -37,11 +37,9 @@ H2 in hetzelfde block als de image plaatsen en erboven laten zweven, hierdoor ka
 Class names in het engels gebruiken. (gebruik passende inhoudelijke namen) 
 Class names minimaliseren, gebruik article.
 
-
-
 **Screenshot(s):**
 
-<>
+(images/tekst.png)
 
 ### Agenda voor meeting
 
@@ -61,9 +59,9 @@ Class names minimaliseren, gebruik article.
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/img_6147.PNG);
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/img_6147.PNG)
 
-(images/img_6151.PNG);
+(images/img_6151.PNG)
 
 (images/homepagina1.PNG);
 
