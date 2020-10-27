@@ -61,7 +61,7 @@ Class names minimaliseren, gebruik article.
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/img_6147.png)(images/IMG_6151.png)(images/homepagina1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/img_6147.PNG)(images/IMG_6151.PNG)(images/homepagina1.PNG)
 
 
 **Breakdown-schets(en):**
