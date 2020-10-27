@@ -16,7 +16,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+(im)
 
 ## Voortgang 3 (week 6)
 
@@ -41,7 +41,7 @@ Class names minimaliseren, gebruik article.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+<>
 
 ### Agenda voor meeting
 
@@ -61,7 +61,8 @@ Class names minimaliseren, gebruik article.
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/img_6147.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/img_6147.png)(images/IMG_6151.png)(images/homepagina1.png)
+
 
 **Breakdown-schets(en):**
 
