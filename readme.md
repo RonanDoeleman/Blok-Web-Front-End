@@ -6,25 +6,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. www.beachim.nl
+2. www.developer.mozilla.org
+3. www.w3schools.com
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Begonnen aan detailpagina opmaken. Heb een array gemaakt voor de image en animaties toegevoegd. Winkelmand functie toegevoegd.
 
 **Screenshot(s):**
 
-(im)
-
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Hamburgermenu (responsive) gemaakt. Content toegevoegd op de hoofdpagina. Nog niet begonnen aan de detailpagina.
+### Verslag van meeting
+
+Studentenassistent heeft goed uitgelegd hoe je media query's kan gebruiken.
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Code is nog rommelig. Loop achter op schema. Alleen footer en nav gemaakt.
+Liep vast met het Hamburgermenu responsive maken en heb nog geen content toegevoegd aan de website. Dus ga nu content toevoegen.
+
+### Verslag van meeting
+
+Uitleg gekregen over hoe je een hamburgermenu tevoorschijn kan laten komen doormiddel van javascript.
+
 
 ## Voortgang 1 (week 3)
 
@@ -47,7 +54,8 @@ Class names minimaliseren, gebruik article.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Grote delen van mijn code waren semantisch incorrect. Gelijk ook letten op het 
+netjes maken van je code.
 
 ## Intake (week 1)
 
